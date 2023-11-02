@@ -1,7 +1,16 @@
-# flex-bison
-for running bison and flex these code are run in terminal.
-
-bison -d fb1-5.y
-flex fb1-5.c
-gcc fb1-5.tab.c lex.yy.c
+<h1>
+  <ol>
+    <li>Run Flex Bison</li>
+  </ol> 
+</h1>
+<p>
+<h3>Run Flex Bison</h3>
+bison -d [file-name].y<br>
+flex [file-name].c<br>
+gcc [file-name].tab.c lex.yy.c<br>
 a.exe
+</p>
+
+
+
+
