@@ -1,7 +1,7 @@
 /* 
 *
 * Authur: Shirajul Islam Shakur
-*
+* a^n*b^n
 */
 
 %option noyywrap
@@ -10,8 +10,8 @@
 %}
 
 %%
- a return A;
- b return B;
+a return A;
+b return B;
 . return (yytext[0]);
 \n return('\n');
 %% 
