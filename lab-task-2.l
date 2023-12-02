@@ -1,7 +1,7 @@
 /* 
 *
 * Authur: Shirajul Islam Shakur
-*
+* a^n*b^n
 */
 
 %option noyywrap
