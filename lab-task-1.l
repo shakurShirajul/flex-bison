@@ -10,6 +10,6 @@
 %}
 
 %%
- [0-9\n]    {return yytext[0]; }
- .          {fprintf(stderr, "Error\n"); exit(1);}
+[0-9\n]    {return yytext[0];}
+.          {fprintf(stderr, "Error\n"); exit(1);}
 %%
